@@ -1,0 +1,16 @@
+clear;
+
+fid2 = fopen('TCU049.txt');
+
+wf = textscan(fid2,'%f %f %f %f', 'CommentStyle','#');
+fclose (fid2);
+
+plot(Tai_coast(:,1),Tai_coast(:,2));
+hold on;
+
+plot(Tai_coast(:,1),Tai_coast(:,2));
+hold on;
+
+
+plot(Tai_coast(:,1),Tai_coast(:,2));
+hold on;
